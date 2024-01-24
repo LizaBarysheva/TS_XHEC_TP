@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ts-xhec-tp"
+version = "0.1.0"
+description = ""
+authors = ["Charles Boy de la Tour"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+pandas = "^2.1.4"
+statsmodels = "^0.14.1"
+scikit-learn = "^1.3.2"
+torch = "^2.1.2"
+nbformat = "^5.9.2"
+requests = "^2.31.0"
+tqdm = "^4.66.1"
+seaborn = "^0.13.0"
+matplotlib = "^3.8.2"
+plotly = "^5.18.0"
+pydantic = "^2.5.2"
+pydantic-settings = "^2.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
